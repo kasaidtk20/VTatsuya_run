@@ -144,8 +144,8 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "linear_alpha": true,
-                "file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/attention.png"
+                "file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/attention.png",
+                "linear_alpha": true
             },
             "mixers": 0,
             "sync": 0,
@@ -171,7 +171,7 @@
             "id": "image_source",
             "versioned_id": "image_source",
             "settings": {
-                "file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/bg.png"
+                "file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/bg.png"
             },
             "mixers": 0,
             "sync": 0,
@@ -227,7 +227,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/heart0.avi"
+                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/heart0.avi"
             },
             "mixers": 255,
             "sync": 0,
@@ -262,7 +262,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/heart1.avi"
+                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/heart1.avi"
             },
             "mixers": 255,
             "sync": 0,
@@ -530,11 +530,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "key": "OBS_KEY_N"
-                    }
-                ],
+                "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.bg": [],
                 "libobs.hide_scene_item.bg": [],
                 "libobs.show_scene_item.model": [],
@@ -558,10 +554,10 @@
             "settings": {
                 "undo_sname": "OK",
                 "hw_decode": false,
+                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/ok.avi",
                 "looping": false,
                 "clear_on_media_end": true,
-                "restart_on_activate": true,
-                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/ok.avi"
+                "restart_on_activate": true
             },
             "mixers": 255,
             "sync": 0,
@@ -596,8 +592,8 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "close_when_inactive": false,
-                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/tulip0.avi"
+                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/tulip0.avi",
+                "close_when_inactive": false
             },
             "mixers": 255,
             "sync": 0,
@@ -632,7 +628,7 @@
             "id": "ffmpeg_source",
             "versioned_id": "ffmpeg_source",
             "settings": {
-                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/VTatsuya_run/OBS/tulip1.avi"
+                "local_file": "C:/Users/m0727_d73jsnl/OneDrive/onedrive/PUBLIC_kakuno_PUBLIC/電通研プログラミング/TatsuyaEffect/tulip1.avi"
             },
             "mixers": 255,
             "sync": 0,
@@ -1026,11 +1022,7 @@
             "push-to-talk": false,
             "push-to-talk-delay": 0,
             "hotkeys": {
-                "OBSBasic.SelectScene": [
-                    {
-                        "key": "OBS_KEY_P"
-                    }
-                ],
+                "OBSBasic.SelectScene": [],
                 "libobs.show_scene_item.bg": [],
                 "libobs.hide_scene_item.bg": [],
                 "libobs.show_scene_item.model": [],
@@ -1071,30 +1063,10 @@
                         "key": "OBS_KEY_D"
                     }
                 ],
-                "libobs.show_scene_item.PEACE0": [
-                    {
-                        "shift": true,
-                        "key": "OBS_KEY_F"
-                    }
-                ],
-                "libobs.hide_scene_item.PEACE0": [
-                    {
-                        "shift": true,
-                        "key": "OBS_KEY_F"
-                    }
-                ],
-                "libobs.show_scene_item.PEACE1": [
-                    {
-                        "shift": true,
-                        "key": "OBS_KEY_G"
-                    }
-                ],
-                "libobs.hide_scene_item.PEACE1": [
-                    {
-                        "shift": true,
-                        "key": "OBS_KEY_G"
-                    }
-                ],
+                "libobs.show_scene_item.PEACE0": [],
+                "libobs.hide_scene_item.PEACE0": [],
+                "libobs.show_scene_item.PEACE1": [],
+                "libobs.hide_scene_item.PEACE1": [],
                 "libobs.show_scene_item.camera": [],
                 "libobs.hide_scene_item.camera": [],
                 "libobs.show_scene_item.attention": [],

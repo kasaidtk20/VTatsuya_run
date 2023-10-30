@@ -2,13 +2,10 @@ import cv2
 import mediapipe as mp
 import time
 import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
-
 import pyautogui as au
-import pygetwindow as gw
 import time
 
-video_path = "../TatsuyaEffect/"
+video_path = "../OBS/"
 
 def landmark2np(hand_landmarks):
     li = []
@@ -41,9 +38,13 @@ def decision(img, count, score, num, videoname, key):
         count = 0
 
         #動画再生が終わったらオフ
-        cap = cv2.VideoCapture(video_path + videoname + ".avi")
-        playtime = cap.get(cv2.CAP_PROP_FRAME_COUNT) / cap.get(cv2.CAP_PROP_FPS)
-        time.sleep(playtime)
+        try:
+            cap = cv2.VideoCapture(video_path + videoname + ".avi")
+            playtime = cap.get(cv2.CAP_PROP_FRAME_COUNT) / cap.get(cv2.CAP_PROP_FPS)
+            time.sleep(playtime)
+        except ZeroDivisionError:
+            print("ZeroDivisionError")
+
         hotkey(key)
 
 
@@ -215,11 +216,11 @@ def main():
         elif (score[0][2] > 0.95 and score[1][3] > 0.95) or (score[1][2] > 0.95 and score[0][3] > 0.95):
             count += 1
             if bool == True:
-                decision(img, count, score, 2, "peace0", "f")
+                decision(img, count, score, 2, "tulip0", "f")
                 bool = not bool
     
             else:
-                decision(img, count, score, 2, "peace1", "g")
+                decision(img, count, score, 2, "tulip1", "g")
                 bool = not bool
 
         else:
